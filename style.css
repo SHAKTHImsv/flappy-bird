@@ -1,0 +1,17 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Prevent scrollbars */
+}
+
+#canvas {
+    background-color: #30c0df;
+    border: 2px solid black;
+    display: block;
+    position: absolute; /* Position the canvas */
+    top: 0;
+    left: 0;
+    width: 100vw; /* Full width */
+    height: 100vh; /* Full height */
+    box-sizing: border-box; /* Include border in element's total width and height */
+}
